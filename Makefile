@@ -1,4 +1,5 @@
 #MakeFile
+setup: install build publish package-install
 
 install: # performing poetry install
 	poetry install
