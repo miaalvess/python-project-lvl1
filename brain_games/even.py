@@ -1,10 +1,13 @@
-from brain_games.cli import welcome_user
 from random import randint
 
 def parity_check():
-  welcome_user()
-  name = input()
+  name = ''
+  while name == '':
+      print('May I have your name? ', end='')
+      name = input()
+      print('Hello,',name, end='! ')
   print('Answer "yes" if the number is even, otherwise answer "no".')
+  #name = input()
   #rand_number = randint(0, 100)
   right_answer = ''
   counter = 0
