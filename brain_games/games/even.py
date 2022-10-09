@@ -1,11 +1,11 @@
 from random import randint
+import prompt
+
+
 
 def parity_check():
-  name = ''
-  while name == '':
-      print('May I have your name? ', end='')
-      name = input()
-      print('Hello,',name, end='! ')
+  name = prompt.string('May I have your name? ')
+  print('Hello,',name, end='! \n')
   print('Answer "yes" if the number is even, otherwise answer "no".')
   #name = input()
   #rand_number = randint(0, 100)
@@ -20,7 +20,7 @@ def parity_check():
       right_answer = 'yes'
     else:
       right_answer = 'no'
-  
+
     ur_answer = input()
     end_of_game = f'{ur_answer} is wrong answer ;(. Correct answer was {right_answer}.\nLet\'s try again, {name}\''
     if ur_answer == right_answer:

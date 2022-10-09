@@ -1,4 +1,4 @@
-from brain_games.even import parity_check
+from brain_games.games.even import parity_check
 
 def main():
     parity_check()
