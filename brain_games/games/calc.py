@@ -18,8 +18,9 @@ def calc_game():
        empty_str = eval(f'{first_rand_number} {char} {second_rand_number}')
    else:
        empty_str = eval(f'{first_rand_number} {char} {second_rand_number}')
-   correct_answer = str(empty_str) 
-# пиздец все под один стандарт придется делать((((
+   correct_answer = str(empty_str) # вроде в модуле игры обозначается что есть верный ответ, в модуле логики мы соответственно импортируем эту строку вместе с функцией
+   print(correct_answer) 
+# все под один стандарт придется делать((((
     ###соответсвенно что ниже идет в логику
 
 
