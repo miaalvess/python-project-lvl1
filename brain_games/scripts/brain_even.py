@@ -5,7 +5,6 @@ from brain_games.logic import logic
 def main():
     logic(even)
 
+
 if __name__ == '__main__':
     main()
-
-

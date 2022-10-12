@@ -6,5 +6,6 @@ from brain_games.logic import logic
 def main():
     logic(progression)
 
+
 if __name__ == '__main__':
     main()
