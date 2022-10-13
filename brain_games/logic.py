@@ -24,4 +24,4 @@ def logic(game):
             print(end_of_the_game, end_of_the_game_plus, end)
             break
         if counter == 3:
-            print(f'Congratulations, {name} !')
+            print(f'Congratulations, {name}!')
