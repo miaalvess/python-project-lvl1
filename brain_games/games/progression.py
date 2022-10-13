@@ -6,13 +6,13 @@ SECOND_NUMBER = 50
 THIRD_NUMBER = 75
 FOURTH_NUMBER = 100
 FIRST_HIDEN_NUMBER = 0
-FIRST_HIDEN_NUMBER = 7
-STEP_START = 1
+SECOND_HIDEN_NUMBER = 7
+STEP_START = 3
 STEP_END = 7
 
 
 def game_code():
-    hiden_number = randint(FIRST_HIDEN_NUMBER, FIRST_HIDEN_NUMBER)
+    hiden_number = randint(FIRST_HIDEN_NUMBER, SECOND_HIDEN_NUMBER)
     progression_lenth = 8
     empty_list = []
     counter_in_game = 0
