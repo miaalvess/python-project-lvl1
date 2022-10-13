@@ -9,8 +9,9 @@ SECOND_NUMBER = 500
 def game_code():
     first_rand_number = randint(FIRST_NUMBER, SECOND_NUMBER)
     question = f'{first_rand_number}'
-    if first_rand_number % 2 != 0 or first_rand_number == 2:
-        correct_answer = 'yes'
-    else:
-        correct_answer = 'no'
+    print(f'{first_rand_number}')
+    for i in range(2, first_rand_number):
+        if first_rand_number % i == 0:
+            correct_answer = 'no'
+    correct_answer = 'yes'
     return question, correct_answer
