@@ -12,11 +12,12 @@ def game_code():
     rand_sign = ['+', '-', '*']
     char = choice(rand_sign)
     empty_str = ''
+    question = f'{first_rand_number} {char} {second_rand_number}'
     if char == '+':
         empty_str = eval(f'{first_rand_number} {char} {second_rand_number}')
-        print('Question: 'f'{first_rand_number} {char} {second_rand_number}')
+       # print('Question: 'f'{first_rand_number} {char} {second_rand_number}')
     else:
         empty_str = eval(f'{first_rand_number} {char} {second_rand_number}')
-        print('Question: 'f'{first_rand_number} {char} {second_rand_number}')
+        #print('Question: 'f'{first_rand_number} {char} {second_rand_number}')
     correct_answer = str(empty_str)
-    return correct_answer
+    return question, correct_answer

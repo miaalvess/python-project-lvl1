@@ -32,5 +32,5 @@ def game_code():
     empty_string = ''
     for _ in empty_list:
         empty_string += str(_) + ' '
-    print('Question: ', f'{empty_string}')
-    return correct_answer
+    question = f'{empty_string}'
+    return question, correct_answer
