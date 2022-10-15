@@ -2,13 +2,15 @@ from random import randint
 
 GAME_BEGINNING = 'What number is missing in the progression?'
 FIRST_NUMBER = 1
-SECOND_NUMBER = 50
-THIRD_NUMBER = 75
+SECOND_NUMBER = 30
+THIRD_NUMBER = 30
 FOURTH_NUMBER = 100
+
 FIRST_HIDEN_NUMBER = 0
 SECOND_HIDEN_NUMBER = 7
+
 STEP_START = 3
-STEP_END = 7
+STEP_END = 6
 
 
 def game_code():

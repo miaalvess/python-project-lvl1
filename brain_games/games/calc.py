@@ -15,9 +15,7 @@ def game_code():
     question = f'{first_rand_number} {char} {second_rand_number}'
     if char == '+':
         empty_str = eval(f'{first_rand_number} {char} {second_rand_number}')
-       # print('Question: 'f'{first_rand_number} {char} {second_rand_number}')
     else:
         empty_str = eval(f'{first_rand_number} {char} {second_rand_number}')
-        #print('Question: 'f'{first_rand_number} {char} {second_rand_number}')
     correct_answer = str(empty_str)
     return question, correct_answer
