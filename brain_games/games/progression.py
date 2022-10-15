@@ -2,20 +2,20 @@ from random import randint
 
 GAME_BEGINNING = 'What number is missing in the progression?'
 FIRST_NUMBER = 1
-SECOND_NUMBER = 30
-THIRD_NUMBER = 30
-FOURTH_NUMBER = 100
+SECOND_NUMBER = 10
+THIRD_NUMBER = 45
+FOURTH_NUMBER = 70
 
 FIRST_HIDEN_NUMBER = 0
-SECOND_HIDEN_NUMBER = 7
+SECOND_HIDEN_NUMBER = 10
 
 STEP_START = 3
-STEP_END = 6
+STEP_END = 5
 
 
 def game_code():
     hiden_number = randint(FIRST_HIDEN_NUMBER, SECOND_HIDEN_NUMBER)
-    progression_lenth = 8
+    progression_lenth = 10
     empty_list = []
     counter_in_game = 0
     while counter_in_game != 1:
